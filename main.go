@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/xuhe1992/LearningGoLang/structure"
+)
 
 
 func main() {
-	fmt.Println("I love you")
+	a := structure.A{Name: "elyot", Age: 10}
+	structure.TestDuck(&a)
 }
